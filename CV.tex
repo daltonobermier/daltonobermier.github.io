@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Dalton} % Your first name
+\familyname{Obermier} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{3201 Fletcher Ave}{Lincoln, NE 68504}
+\mobile{(402) 363 8561}
+\phone{(800) 867 5309}
+\email{dalton.obermier@gmail.com}
+\homepage{https://animalscience.unl.edu/}{https://animalscience.unl.edu/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\quote{"If you're not first, you're last" - Ricky Bobby}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2020-Current}{Doctorate Program - Animal Breeding and Genetics}{The University of Nebraska - Lincoln}{Berkeley}{\textit{GPA -- 3.4}}{Good Student}  % Arguments not required can be left empty
+\cventry{2018-2020}{M.S. Animal Science}{North Carolina State University}{Raleigh}{\textit{GPA -- 3.5}}{Specialized in Swine}
+
+\section{Masters Thesis}
+
+\cvitem{The impact of functional teat number on reproductive throughput in swine}{\emph{For every increase in 1 additional functional teat at farrowing, an increase of 0.32 pigs at weaning can be expected.}}
+\cvitem{Supervisors}{Dr. Mark Knauer and Dr. Todd See}
+\cvitem{Description}{This thesis was in collaboration with Smithfield Premium Genetics}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2018--Present}{1\textsuperscript{st} Grad Student}{\textsc{UNL}}{Los Angeles}{}{Did a lot of things for a lot of people in a lot of areas
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Learned how to make amazing coffee
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2018-2018}{Summer Intern}{\textsc{Gestal}}{London, Ontario}{}{Did a fantastic job running my first research project}
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+
+\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2022}{Distinguished Graduate Student Award - NSIF}
+\cvitem{2021}{2nd Flight Winner - Friend Member Guest Tournament}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
+\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
+\cvitem{Advanced}{Excel}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2022}{Oral Presentation at the National Swine Improvement Federation Conference}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Mothertongue}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Hunting}{Fishing}
+\cvlistdoubleitem{Judging Pig Shows}{Feeding Pigs}
+\cvlistitem{Working Out}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
