@@ -1,0 +1,31 @@
+---
+title: "Slides for HW10"
+author: "Dalton Obermier"
+format: revealjs
+editor: visual
+output: revealjs::revealjs_presentation
+---
+
+## Background
+
+-   My name is Dalton Obermier, I was born on April 5th, 1996.
+
+-   I grew up in York Nebraska. I am a third year PhD student studying Animal Breeding and Genetics.
+
+-   I am planning on graduating in the Fall of 2023.
+
+## Favorite Plot 
+
+```{r}
+library(ggplot2)
+library(mclust)
+data(banknote)
+ggplot(data = banknote, aes(x = Bottom, fill = Status)) + geom_histogram(binwidth = 0.5)
+```
+
+## Favorite Animal
+
+![Pig](GestalPic.JPG)
+
+## CV
+
